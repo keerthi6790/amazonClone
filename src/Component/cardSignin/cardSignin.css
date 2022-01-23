@@ -1,0 +1,21 @@
+.signinCardHeader{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signinCardStyle{
+    font-size: 18px;
+    font-weight: 500;
+}
+.signinCardButton button{
+    background-color: #fdd930 !important;
+    color: black !important; 
+    margin: 10px 5px;
+    text-transform: capitalize;
+}
+.signinCardButton:hover{
+    background-color: #fdd930;
+    color: black;
+    box-shadow: 5px 5px 10px black;
+}

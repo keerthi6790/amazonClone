@@ -1,0 +1,35 @@
+.Heading1{
+    font-size: 21px;
+    font-weight: 500;
+    padding: 20px 10px;
+}
+.cardHeader{
+    border-radius: 5px;
+    padding: 5px 2px;
+}
+.cardsGrid{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 10px;
+   gap: 5px;
+}
+.cardsFlex{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;   
+  gap: 10px;
+}
+.caption{
+    text-align:center;
+    font-size:14px;
+    font-weight:400;
+}
+.seeMore{
+    padding: 0px 18px;
+    font-size: 15px;
+    color: #317a8d;
+}
+.seeMore:hover{
+    color: rgb(64, 67, 224);
+    cursor: pointer;
+}

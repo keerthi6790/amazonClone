@@ -1,0 +1,58 @@
+.container{
+    background-color: #131921;
+    height:auto;
+}
+.grid-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+    padding: 10px;
+}
+.imgStyle{
+    width: 100px;
+    height: 50px;
+}
+.flexStyle{
+    display: flex;
+    align-items: center;
+}
+.addressStyle:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.whiteColor{
+    color:white
+}
+.small{
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 1px;
+}
+.bold{
+    font-size: 14px;
+    font-weight: bold;
+}
+.spaccingStyle{
+    letter-spacing: 0.3px;
+}
+.searchStyle{
+    padding: 10px 8px;
+    border: none;
+    width: auto;
+}
+.wholeSearchStyle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* //responsive */
+
+@media only screen and (max-width: 600px) {
+   *{
+       font-size: 12p;
+   }
+}

@@ -1,0 +1,13 @@
+.categoryDetails{
+    background-color: #232f3e;
+}
+.categoryList{
+    padding: 10px 5px;
+    display: flex;
+    font-size: 14px;
+    color: white;
+    justify-content: space-between;
+}
+.categoryList li{
+    list-style-type: none;
+}
