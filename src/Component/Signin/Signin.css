@@ -1,0 +1,20 @@
+.signInHeader{
+      background-color: white;
+      margin: 10px 23px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 30px 15px;
+      font-size: 15px;
+      font-weight: 400;
+}
+.signInHeader button{
+    margin: 20px 0px;
+    background-color: #fac83e;
+    color: black;
+    text-transform: capitalize;
+    padding: 5px 50px;
+}
+div a{
+    color: blue;
+}

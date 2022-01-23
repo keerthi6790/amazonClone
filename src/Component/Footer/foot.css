@@ -1,0 +1,163 @@
+.button{
+    height: 48px;
+    width: 100%;
+    background-color: #37475A;
+    color: white;
+}
+.button:hover{
+    background-color: #47576b;
+}
+.bot{
+    height: 398px;
+    background-color: #232F3E;
+}
+.bot .heading{
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 48px;
+    color: white;
+}
+.bot .nav1{
+    position: absolute;
+    margin-left: 225px;
+    color: white;
+    margin-top: 70px;
+}
+.bot .nav1 ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+.bot .nav1 ul li:hover{
+     text-decoration: underline;
+     cursor: pointer;
+}
+.bot .heading1{
+    position: absolute;
+    margin-left: 506px;
+    margin-top: 48px;
+    color: white;
+}
+.bot .nav2{
+    position: absolute;
+    margin-left: 462px;
+    color: white;
+    margin-top: 70px;
+}
+.bot .nav2 ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+.bot .nav2 ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.bot .heading2{
+    position: absolute;
+    margin-left: 786px;
+    margin-top: 48px;
+    color: white;
+}
+.bot .nav3{
+    position: absolute;
+    margin-left: 742px;
+    color: white;
+    margin-top: 70px;
+}
+.bot .nav3 ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+.bot .nav3 ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.bot .heading3{
+    position: absolute;
+    margin-left: 1106px;
+    margin-top: 48px;
+    color: white;
+}
+.bot .nav4{
+    position: absolute;
+    margin-left: 1058px;
+    color: white;
+    margin-top: 70px;
+}
+.bot .nav4 ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+.bot .nav4 ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.sep{
+    height: 1px;
+    background-color: #3A4553;
+}
+.bot1{
+    height: 108px;
+    background-color: #232F3E;
+}
+.bot1 #cent{
+    margin-left: 464px;
+    margin-top: 40px;
+}
+.bot1 #cent1{
+    border: 1px solid white;
+    height: 31px;
+    margin-left: 602px;
+    border-radius: 4px;
+    width: 115px;
+    position: absolute;
+    margin-top: -35px;
+}
+.bot1 #cent2{
+    border: 1px solid white;
+    height: 31px;
+    margin-left: 730px;
+    border-radius: 4px;
+    width: 150px;
+    position: absolute;
+    margin-top: -35px;
+}
+.bot1 #cent3{
+    border: 1px solid white;
+    height: 31px;
+    margin-left: 890px;
+    border-radius: 4px;
+    width: 120px;
+    position: absolute;
+    margin-top: -35px;
+}
+.bot1 #cent1text{
+    position: absolute;
+    margin-left: 640px;
+    margin-top: -28px;
+    font-size: 13px;
+    color: white;
+}
+.bot1 #cent2text{
+    position: absolute;
+    margin-left: 740px;
+    margin-top: -28px;
+    font-size: 13px;
+    color: white;
+}
+.bot1 #cent3text{
+    position: absolute;
+    margin-left: 930px;
+    font-size: 13px;
+    margin-top: -29px;
+    color: white;
+}
+.bot1 #cent3textflag{
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 44px;
+}
+.bot1 #cent1textglob{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 40px;
+}

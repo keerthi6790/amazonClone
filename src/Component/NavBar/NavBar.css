@@ -1,6 +1,9 @@
 .container{
     background-color: #131921;
     height:auto;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 .grid-container{
     display: flex;

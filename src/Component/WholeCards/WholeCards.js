@@ -10,8 +10,12 @@ import {
   Details5,
   Details6,
 } from "../Products/Products";
+import { Electronics } from '../Products/Electronical'
+import { Mask } from "../Products/Mask";
 import CardSignin from "../cardSignin/cardSignin";
 import ProductsCarousel from "../ProductsCarousel/ProductsCarousel";
+import Signin from "../Signin/Signin";
+import Foot from "../Footer/foot1";
 
 function WholeCards() {
   return (
@@ -43,7 +47,7 @@ function WholeCards() {
         </div>
       </div>
       <div style={{position:"relative",bottom:'12rem'}}>
-        <ProductsCarousel/>
+        <ProductsCarousel images={Electronics} header="Up to 60% off | Refurbished products" link="see more"/>
       </div>
       <div className="grid">
         <div>
@@ -75,6 +79,13 @@ function WholeCards() {
             Link="More..."
           />
         </div>
+      </div>
+      <div style={{position:"relative",bottom:'12rem'}}>
+        <ProductsCarousel images={Mask} header="Curated protective supply products | Amazon Launchpad" link="see all safety essentials"/>
+        <Signin/>
+      </div>
+      <div style={{position:"relative",bottom:"10rem"}}>
+        <Foot/>
       </div>
     </div>
   );

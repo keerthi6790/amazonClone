@@ -1,5 +1,7 @@
 .categoryDetails{
     background-color: #232f3e;
+    position: relative;
+    top: 4rem;
 }
 .categoryList{
     padding: 10px 5px;
